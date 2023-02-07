@@ -11,6 +11,7 @@
   justify-content: center;
 
   color: var(--primary-color);
+  text-align: center;
 }
 
 .title {
@@ -29,4 +30,18 @@
   font-family: var(--secondary-font);
   font-size: 14px;
   margin-top: 1rem;
+}
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .subtitle {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
 }
