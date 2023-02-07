@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className={`App ${imageLoaded && "background"}`}>
       {imageLoaded ? (
         <>
           <span className="title">Lumina</span>
@@ -25,9 +25,7 @@ function App() {
           </span>
         </>
       ) : (
-        <>
-          <img src={SpinnerImg} alt="" />
-        </>
+        <img src={SpinnerImg} alt="" />
       )}
     </div>
   );

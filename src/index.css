@@ -17,7 +17,4 @@
 body {
   margin: 0;
   overflow: hidden;
-  background-image: url(assets/backgrounds/holo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
