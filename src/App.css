@@ -1,0 +1,32 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/backgrounds/holo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  color: var(--primary-color);
+}
+
+.title {
+  font-family: var(--primary-font);
+  font-size: 82px;
+  font-weight: bolder;
+}
+
+.subtitle {
+  font-family: var(--primary-font);
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.description {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+}
