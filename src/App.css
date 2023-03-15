@@ -35,6 +35,20 @@
   margin-top: 1rem;
 }
 
+.mail-to {
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  border: 0;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+a{
+  font-family: var(--secondary-font);
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 320px) {
   .title {
     font-size: 60px;

@@ -23,6 +23,9 @@ function App() {
           <span className="description">
             Fully compliant, enterprise-ready, decentralized exchange on Mina
           </span>
+          <span className="mail-to">
+            <a href="mailto:contact@luminadex.com"> Contact </a>
+          </span>
         </>
       ) : (
         <img src={SpinnerImg} alt="" />
