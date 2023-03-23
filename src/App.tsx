@@ -19,7 +19,6 @@ function App() {
       {imageLoaded ? (
         <>
           <span className="title">Lumina</span>
-          <span className="subtitle">DEX</span>
           <span className="description">
             Fully compliant, enterprise-ready, decentralized exchange on Mina
           </span>

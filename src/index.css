@@ -1,6 +1,6 @@
 :root {
   --primary-font: Orbitron;
-  --secondary-font: "Cutive Mono";
+  --secondary-font: "Agrandir Wide";
 
   --primary-color: #311d72;
 
@@ -12,6 +12,13 @@
   color-scheme: light dark;
   color: var(--primary-color);
   background-color: #ffffff;
+}
+
+@font-face {
+  font-family: "Agrandir Wide";
+  font-style: normal;
+  font-weight: 400;
+  src:url("/fonts/Agrandir-WideLight.woff2") format('woff2');
 }
 
 body {
